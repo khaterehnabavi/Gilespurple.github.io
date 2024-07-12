@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    width: 100%;
+    min-height:100vh;
+    background-color: rgba(223, 223, 223, 0.911);
+    overflow: hidden;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.contanir{
+  margin: 50px auto;
+  max-width: 800px;
+  min-height: 500px;
+  background: rgba(240, 240, 240, 0.945);
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+.logen-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.logen-form-imge{
+    width: 100%;
+    color: #fff;
+    max-width: 400px;
+    height: 500px;
+    background: url(../imge/grli.jpg)no-repeat center center/cover;
+    border-radius: 10px 0px  0px 10px;
+    /* width: 600 auto; */
+}
+.logen-form-content h2 ,h5 ,h6{
+    margin-bottom: 1rem;
+    font-weight:0.5;
+    size: 400;
+    color: #677589;
+}
+.logen-form-content{
+    padding: 2rem;
+    text-align: center;
+}
+.logen-form-content form{
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    align-items: center;
+}
+.logen-form-content form input {  
+    width: 250px;
+    min-height: 15px;
+    border: 2px solid  #a88df3;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+   outline: none;
+   font-weight: bolder;
+}
+.logen-form-content input:focus{
+    border: 1px solid  #a88df3;
+    box-shadow: 0 0 3px 2px rgb(220, 151, 230);
+}
+.logen-form-content form button {
+    width: 250px;
+    min-height: 15px;
+    border: 2px  solid  #d15f8e;
+   border-radius: 4px;
+    background: #d15f8e;
+    color:#fff;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    transition: all 400ms;
+    font-size: 0.900rem;
+    font-weight: 500;
+    box-shadow: 5px 5px 50px #db93b1 ,-5px -5px  50px transparent;
+}
+ form button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color:#677589;
+}
+.logen-form .logen-form-content .submit-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin :0px 3px;
+}
+.logen-form .logen-form-content .submit-link a{
+    color:#677589;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 0.75rem;  
+}
+.logen-form .logen-form-content .submit-link a:nth-child(2){
+    color: #ce92e0;
+}
+.contanir .logen-form-conten.submit-link{
+ text-decoration: none;
+ color: #ce92e0;
+ font-size: 200;
+ font-weight: bold;
+}
+.logen-form-content h6{
+ padding: 3px;
+ border-bottom:1px solid #fff;
+ font-weight: 900;
+}
+ .social-network {
+    display:flex;
+    justify-content: center;
+    margin: 5px;  
+}
+.social-network img{
+    min-width: 15px;
+    max-height: 25px;
+ 
+}
+.social-network a{
+    width: 50px;
+    height: 30px;
+    border:1px solid #fff;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 5px 20px;
+}
+.social-network .apple {
+    background:#fff;
+    box-shadow:5px 5px 50px #677589,-5px -5px  50px transparent ; 
+}
+/* @media(max-width:270px) {
+     .logen-form .logen-form-content {
+        grid-template-rows: 1fr;
+    }
+    .logen-form .logen-form-imge{
+        grid-template-rows: 1fr;
+    }
+}
+
+ */
+
